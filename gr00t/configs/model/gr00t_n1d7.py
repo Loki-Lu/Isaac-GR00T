@@ -37,7 +37,7 @@ class Gr00tN1d7Config(PretrainedConfig):
     model_dtype: str = "bfloat16"  # Use bfloat16 for Flash Attention compatibility
 
     # Backbone configuration
-    model_name: str = "nvidia/Cosmos-Reason2-2B"
+    model_name: str = "/public/hz_nas/tong/model/GR00T/nvidia/Cosmos-Reason2-2B"
     backbone_model_type: str = "qwen"
     model_revision: str | None = None
     tune_top_llm_layers: int = 0  # Number of top LLM layers to tune
